@@ -1,0 +1,26 @@
+Release notice
+This release of FydeOS for PC v6.0 is a milestone update for FydeOS for PC, sorry to have kept you waiting!
+
+In this release, we synced the latest upstream functional modules and components, added more exciting new features, and fixed some of the irritating issues in previous releases. among them:
+
+*Added support for FydeOS network account (beta). In the new FydeOS first boot welcome guide, the user will be registered to verify and verify the FydeOS network account. The FydeOS web account is dedicated to providing the features and experiences that are comparable to the Google account system, which we will gradually add to later releases and updates.
+*Refactored the activation and startup process for Linux (beta), dramatically increasing startup speed and fixing many of the factors that caused previous versions to cause errors. In addition, we added a more detailed error message during the activation of Linux (beta), so that you can provide us with error feedback.
+*Android subsystem upgrade to v9, right, Pie
+*Optimized for the built-in "File" manager program
+*Added more touchpad and touchscreen firmware
+*If you are acquiring the upgrade version via OTA way , be sure to refer to the tutorial manual complete Linux (beta) upgrade container file, otherwise it will lead to Linux (beta) can not be started.
+
+Starting with v6.0, FydeOS no longer sets the default command line password. To use the command line, you can use the chronosdirect login account. It is strongly recommended that you set up your own password for this account as soon as possible . Please refer to the FAQ for details .
+
+This release of FydeOS is still an early version, there are some known issues and precautions, as follows:
+
+If a user adopting the multi-system booting scheme updates to this version through OTA, the first reboot of the device system triggers the kernel update process. The performance is black screen and then restart, Mo Pan! After rebooting, you can enter the system normally.
+The FydeOS installer can take up to 20 minutes to perform installation tasks. The disk read/write speed wait time can be very long. Please be prepared for long waits.
+It may take a long (up to half an hour) waiting time to start Linux (beta) for the first time. Please be prepared to wait for a long time.
+Linux (beta) uses a hybrid boot mode of virtual machine + container, and the complexity of the structure leads to limited compatibility with hardware. If an activation startup error occurs on your device, please send us an error message via the Chinese forum.
+In the Linux (beta) environment, Chinese input methods are temporarily unavailable, sounds cannot be used, and hardware graphics acceleration is not available.
+After logging in to the system for the first time, the latest version of the support plugin and required files will be automatically downloaded from the FydeOS server. Please be patient. These programs are automatically installed after the download is complete, which can be found in the Application Launcher.
+The Android subsystem and Android related functions are currently only compatible with Intel series graphics cards.
+We hope and believe that FydeOS will gradually become a more open platform, and all the programs you want can be used on FydeOS. A journey of a thousand miles, this is our first step, I only hope that you will be accompanied by every step in the future.
+
+SHA256(FydeOS_PC_v6.0-stable.img.xz):  4b6cd68cea780fc2a13ab226c8660f7ef6cac88663b98da8f8e5e3ee2e17b59c
